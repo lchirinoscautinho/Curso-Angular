@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<hmtl lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <title> LeononardoChC</title>
+        <!--Hojas de estilos-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link id="Tema" rel="stylesheet" type="text/css" href="css/tema-default.css" />
+        <!-- JQuery-->
+        <script src="js/jquery.min.js"></script>
+        <!--Slider-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!--Mis Scripts-->
+        <script type="text/javascript" src="js/main.js"></script>
+        <!--Moment-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+
+
+
+    </head>
+
+    <body>
+        <div id="selector-tema">
+            <div id="tema-default"></div>
+            <div id="tema-verde"></div>
+            <div id="tema-rojo"></div>
+        </div>
+        <section id="global">
+            <!----Cabecera-->
+            <header>
+                <div id="logo">
+                    <h1>LeonardoChC </h1>
+                </div>
+                <div class="clearfix"></div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Sobre Mi</a></li>
+                        <li><a href="#">Reloj</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!---Slider--->
+            <div id="slider">
+                <div class="bxslider">
+                    <div><img src="img/Trabajos-1.jpg"></div>
+                    <div><img src="img/Trabajo-2.jpg"></div>
+                    <div><img src="img/Trabajos-3.jpg"></div>
+                </div>
+            </div>
+            <!--contenido-->
+            <section id="content">
+                <!---Primer Articulo--->
+                <div id="posts">
+                    <!----Cargar Post desde un Json-->
+                </div>
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4><span>¿Quien soy</span></h4>
+                        <img src="img/Leonardo.jpeg" />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas felis tellus, eget laoreet felis malesuada hendrerit. Ut hendrerit suscipit est sed sollicitudin. Vestibulum eu laoreet ex, at rhoncus massa. Cras nisi metus,
+                            ullamcorper sed tellus id, convallis congue ex.</p>
+                    </div>
+                    <div id="login">
+                        <h4><span>Identificate</span></h4>
+                        <form>
+                            <label for="name">
+                                Nombre
+                            </label>
+                            <input type="text" name="name" id="form_name" />
+
+                            <label for="correo">
+                                Correo
+                            </label>
+                            <input type="text" name="email" />
+
+                            <label for="password">
+                                Contraseña
+                            </label>
+                            <input type="password" name="password" />
+
+                            <input type="submit" value="Entrar" />
+                        </form>
+                    </div>
+                </aside>
+
+
+                <div class="clearfix"></div>
+
+            </section>
+        </section>
+        <footer> Leonardo Chirinos Cautinho 2019 &copy;
+            <a href="#" class="subir">Ir arriba</a>
+        </footer>
+    </body>
+</hmtl>

@@ -1,0 +1,12 @@
+body {
+    background: rgb(236, 236, 236);
+    background-attachment: fixed;
+}
+
+#logo {
+    background: #0b3075;
+}
+
+.button-more {
+    background: #0b3075;
+}
